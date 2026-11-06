@@ -1,0 +1,9 @@
+export 'gender.dart';
+export 'location.dart';
+export 'menksoft.dart';
+export 'menksoft_word.dart';
+export 'mongol_code.dart';
+export 'mongol_word.dart';
+export 'shape.dart';
+export 'suffix.dart';
+export 'unicode.dart';

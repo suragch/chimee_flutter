@@ -1,0 +1,105 @@
+name: chimee
+description: "A Traditional Mongolian vertical text editor, card creator, and code conversion tool."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^2.0.0
+  material_ui: ^1.5.0
+  mongol: ^11.2.0
+  mongol_code: ^1.0.5
+  sqflite: ^2.4.1
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  file_picker: ^13.3.2
+  share_plus: ^13.3.1
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.5
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.3.4+4
+  test: ^1.25.15
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: Qagan
+      fonts:
+        - asset: assets/fonts/MQG8F02.ttf
+    - family: ChimeeWhite
+      fonts:
+        - asset: assets/fonts/ChimeeWhiteMirrored.ttf
+    - family: Garqag
+      fonts:
+        - asset: assets/fonts/MGQ8102.ttf
+    - family: Hara
+      fonts:
+        - asset: assets/fonts/MHR8102.ttf
+    - family: Scnin
+      fonts:
+        - asset: assets/fonts/MSN8102.ttf
+    - family: Hawang
+      fonts:
+        - asset: assets/fonts/MHW8102.ttf
+    - family: Qimed
+      fonts:
+        - asset: assets/fonts/MQD8102.ttf
+    - family: Narin
+      fonts:
+        - asset: assets/fonts/MNR8102.ttf
+    - family: Mcdvnbar
+      fonts:
+        - asset: assets/fonts/MMB8102.ttf
+    - family: Amglang
+      fonts:
+        - asset: assets/fonts/MAM8102.ttf
+    - family: Sidam
+      fonts:
+        - asset: assets/fonts/MBN8102.ttf
+    - family: Qingming
+      fonts:
+        - asset: assets/fonts/MQI8102.ttf
+    - family: OnqaHara
+      fonts:
+        - asset: assets/fonts/MTH8102.ttf
+    - family: Sgvnag
+      fonts:
+        - asset: assets/fonts/MSO8102.ttf
+    - family: Svlbiya
+      fonts:
+        - asset: assets/fonts/MBJ8102.ttf
+    - family: Jclgq
+      fonts:
+        - asset: assets/fonts/MenksoftJclgq.ttf
+    - family: Tvgvrai
+      fonts:
+        - asset: assets/fonts/MTR8102.ttf
+    - family: Erihe
+      fonts:
+        - asset: assets/fonts/MER8102.ttf
+    - family: Hvlvsvn
+      fonts:
+        - asset: assets/fonts/MHL8102.ttf
+    - family: Qimeg
+      fonts:
+        - asset: assets/fonts/MQM8102.ttf
+    - family: Ujug
+      fonts:
+        - asset: assets/fonts/MWJ8102.ttf
+    - family: Uyanga
+      fonts:
+        - asset: assets/fonts/MVY8102.ttf
